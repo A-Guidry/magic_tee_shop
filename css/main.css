@@ -1,0 +1,58 @@
+body{
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+#logo{
+	text-align: center;
+	width: 300px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("waltograph.regular.ttf");
+}
+
+h1 { 
+    font-family: waltograph-font, Verdana, Tahoma;
+}
+h2{
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;
+	margin-top: 10px;
+}
+h4{
+	font-size: 16;
+	font-family: 'Dosis', sans-serif;
+}
+@media screen and (max-width: 965px){
+	h2{
+		font-size: 19px;
+	}
+	h4{
+		font-size: 14px;
+	}
+}
+.item{
+	margin:0 0 20px;
+}
+.img-responsive{
+	margin: 0 auto;
+}
+img{
+	border-radius: 5px;
+}
+.btn-primary{
+	background-color: transparent;
+	color: #1A6CB2;
+}
+button{
+	font-family: "Dosis";
+	background-color: transparent;
+	border-color: #1A6CB2;
+}
+
+
+
